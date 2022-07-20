@@ -122,5 +122,55 @@ section {
 #active-btn {
   background-color: #dd0000;
 }
+.main-sec {
+  display: flex;
+  flex-direction: row;
+}
 
 /* Blogs style  */
+
+.blog-sec {
+  margin-left: 334px;
+  margin-top: -284px;
+}
+.blog {
+  width: 312px;
+  height: 362px;
+  border-left: 1px solid rgba(128, 128, 128, 0.479);
+  border-right: 1px solid rgba(128, 128, 128, 0.479);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: 5px 5px 5px #161616ce;
+}
+.transfer-btn > a {
+  text-decoration: none;
+  color: #161616;
+  border-radius: 5px;
+}
+.transfer-btn {
+  text-decoration: none;
+  background-color: #ffffff;
+  padding: 2px 14px;
+  border: 1px solid black;
+  color: #161616;
+  border-radius: 5px;
+  width: 100px;
+  height: 32px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.blog-img-nd-detail > h4 {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.blog-img-nd-detail > img {
+  width: 100%;
+}
+.blog-info {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.blog-comment {
+  margin-left: 30px;
+}
