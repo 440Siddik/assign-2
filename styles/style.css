@@ -78,10 +78,10 @@ main {
 }
 /* section with sidebar and main content styles */
 
-section {
-  margin-top: 130px;
-  margin-left: 140px;
-  margin-right: 140px;
+section{
+    margin-top: 130px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /* Sidebar Styles  */
@@ -95,11 +95,12 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-right: 24px;
+
 }
 .btn > a {
   text-decoration: none;
   font-size: 20px;
-  padding-top: 47px;
   color: #161616;
   font-weight: 500;
 }
@@ -111,7 +112,9 @@ section {
   border-radius: 10px;
   padding-top: 15px;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 15px;
+  margin-left: 14px;
+  margin-right: 14px;
 }
 
 #active-btn > a {
@@ -122,55 +125,64 @@ section {
 #active-btn {
   background-color: #dd0000;
 }
-.main-sec {
-  display: flex;
-  flex-direction: row;
-}
+
 
 /* Blogs style  */
 
-.blog-sec {
-  margin-left: 334px;
-  margin-top: -284px;
-}
-.blog {
-  width: 312px;
-  height: 362px;
-  border-left: 1px solid rgba(128, 128, 128, 0.479);
-  border-right: 1px solid rgba(128, 128, 128, 0.479);
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  box-shadow: 5px 5px 5px #161616ce;
-}
-.transfer-btn > a {
-  text-decoration: none;
-  color: #161616;
-  border-radius: 5px;
-}
-.transfer-btn {
-  text-decoration: none;
-  background-color: #ffffff;
-  padding: 2px 14px;
-  border: 1px solid black;
-  color: #161616;
-  border-radius: 5px;
-  width: 100px;
-  height: 32px;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-.blog-img-nd-detail > h4 {
-  margin-top: 15px;
-  margin-left: 10px;
-}
-.blog-img-nd-detail > img {
-  width: 100%;
-}
 .blog-info {
   display: flex;
   margin-top: 20px;
   margin-left: 20px;
 }
-.blog-comment {
-  margin-left: 30px;
+
+.hours-icon{
+  margin-right: 30px;
 }
+
+.blogs {
+  width: 314px;
+  height: 366px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-right: 670px;
+  grid-gap: 24px;
+}
+.blog{
+  border-left: 1px solid #16161636;
+  border-right: 1px solid #16161636;
+  border-bottom: 1px solid #16161636;
+  border-radius: 5px;
+}
+.blog-btn {
+  width: 100px;
+  height: 32px;
+  background-color: #ffffff;
+  padding: 2px 14px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.blog-btn > a{
+  text-decoration: none;
+  color: #161616;
+}
+.blog-details > h4 {
+    margin-top: 15px;
+    margin-left: 18px;
+}
+.blog-img{
+  width: 312px;
+  height: 175px;
+}
+.blog-img > img {
+  width: 100%;
+}
+
+.sidebar-nd-blogs{
+  display: flex;
+  width: 100%;
+}
+
+
+
