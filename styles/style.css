@@ -82,6 +82,7 @@ section{
     margin-top: 130px;
   margin-left: 5%;
   margin-right: 5%;
+  height: 100vh;
 }
 
 /* Sidebar Styles  */
@@ -184,5 +185,39 @@ section{
   width: 100%;
 }
 
+footer{
+  width: 100%;
+  height: 444px;
+  background-color: #161616;
+  margin-top: 600px;
+}
 
+footer > hr{
+ border: 1px solid #FFFFFF1A;
+}
 
+footer > h3{
+ font-size: 40px;
+ color: #ffffff;
+ text-align: center;
+ padding-top: 130px;
+}
+.ftr-menu{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  color: #ffffff9a;
+  font-weight: 200;
+}
+.social-icons{
+  display: flex;
+  justify-content: center;
+  padding: 20px 30px;
+  margin-top: 30px;
+}
+.icon>a{
+  padding: 20px 30px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
